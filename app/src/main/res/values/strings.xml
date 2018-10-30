@@ -29,44 +29,43 @@
   -->
 
 <resources>
-	<string name="app_name">nRF Blinky</string>
-	<string name="feature_name">BLINKY</string>
+	<string name="app_name">차즈미</string>
+	<string name="feature_name">Chazumi</string>
 
 	<string name="title">@string/app_name</string>
 
-	<string name="unknown_device">Unknown Device</string>
-	<string name="turn_on">On</string>
-	<string name="turn_off">Off</string>
+	<string name="unknown_device">미확인 기기</string>
+	<string name="turn_on">켜짐</string>
+	<string name="turn_off">꺼짐</string>
 	<string name="title_led_state">LED</string>
 	<string name="title_button_state">Button</string>
-	<string name="state">State</string>
+	<string name="state">상태</string>
 	<string name="button_pressed">PRESSED</string>
 	<string name="button_released">RELEASED</string>
 	<string name="button_unknown">UNKNOWN</string>
-	<string name="led_summary">Toggle the switch to turn the LED 3 on or off.</string>
+	<string name="led_summary_01">1번 LED를 키거나 끄려면 버튼을 누르세요.</string>
+	<string name="led_summary_02">2번 LED를 키거나 끄려면 버튼을 누르세요.</string>
 	<string name="button_summary">Press Button 1 on the dev kit.</string>
 
-	<string name="location_permission_title">LOCATION PERMISSION REQUIRED</string>
-	<string name="location_permission_info">From Android 6.0 Marshmallow onwards the application requires Location permission in order to scan for Bluetooth Low Energy devices.
-      \n\nThis is because Bluetooth LE beacons, for example iBeacons or Eddystone, may be used to determine the phone\'s and user\'s location. <b>nRF Blinky</b> will not use this information in any way.</string>
-	<string name="location_permission_action">Grant permission</string>
-	<string name="location_permission_settings">Settings</string>
+	<string name="location_permission_title">위치정보 수집 동의</string>
+	<string name="location_permission_info">BLE기기를 검색하기 위해 위치정보가 필요합니다.\n <b>차즈미</b> 는 다른목적으로 위치정보를 사용하지 않습니다.</string>
+	<string name="location_permission_action">동의함</string>
+	<string name="location_permission_settings">설정</string>
 
-	<string name="bluetooth_disabled_title">BLUETOOTH DISABLED</string>
-	<string name="bluetooth_disabled_info">The Bluetooth adapter is turned off. Click the button below to enable it.</string>
-	<string name="bluetooth_disabled_action">Enable</string>
+	<string name="bluetooth_disabled_title">블루투스 비활성화</string>
+	<string name="bluetooth_disabled_info">블루투스 기능이 꺼져있습니다.\n 아래 버튼을 눌러 활성화시키세요.</string>
+	<string name="bluetooth_disabled_action">활성화</string>
 
-	<string name="blinky_guide_title">CAN\'T SEE YOUR BLINKY?</string>
-	<string name="blinky_guide_info">1. Make sure the DK is <b>turned on</b> and is connected to a power source using a micro USB cable or a coin cell is plugged in.
-        \n\n2. Make sure the <b>ble_app_blinky</b> firmware and SoftDevice are flashed.</string>
-	<string name="blinky_guide_location_info">3. Location is turned off. Some Android phones require it enabled in order to scan for Bluetooth LE devices.
-		If you are sure your Blinky is advertising and it doesn\'t show up here, click the button below to enable Location.</string>
-	<string name="blinky_guide_location_action">Enable</string>
+	<string name="blinky_guide_title">기기를 찾을 수 없나요?</string>
+	<string name="blinky_guide_info">1. 기기가 USB에 잘 연결되있는지 확인해주세요.
+        \n\n2.<b>차즈미</b> 의 소프트웨어나 펌웨어가 설치되어있는지 확인해주세요.</string>
+	<string name="blinky_guide_location_info">3.위치 기능이 꺼져있습니다. 몇몇의 안드로이드 기기는 BLE기능을 스캔하기위해 위치정보를 필요로 합니다.\n기기에 문제가 없다면 위치기능을 확인해주세요., click the button below to enable Location.</string>
+	<string name="blinky_guide_location_action">위치 기능 활성화</string>
 
-	<string name="state_scanning">Scanning…</string>
-	<string name="state_connecting">Connecting…</string>
+	<string name="state_scanning">스캔중…</string>
+	<string name="state_connecting">연결중…</string>
 	<string name="state_discovering_services">Discovering services…</string>
-	<string name="state_initializing">Initializing…</string>
+	<string name="state_initializing">실행중…</string>
 	<string name="state_discovering_services_completed">%s ready</string>
 	<string name="state_not_supported">Device does not have required services.</string>
 	<string name="state_disconnected">Device disconnected.</string>

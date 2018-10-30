@@ -55,5 +55,5 @@
 		android:layout_centerHorizontal="true"
 		android:layout_marginBottom="6dp"
 		android:scaleType="center"
-		android:src="@drawable/background_title"/>
+		android:src="@drawable/background_title_kau"/>
 </RelativeLayout>
